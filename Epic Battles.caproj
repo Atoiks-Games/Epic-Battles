@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Epic Battles</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>1i31aaj4qmcal</unique-id>
+    <saved-with-version>22700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Title" sid="3461465401093235">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Start" sid="5185270365406525">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Cool" sid="2683597556263154">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="Gui_Gud" sid="1889397628164523">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1658120647352047">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="6008024367019143">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9152613205011131" speed="5">
+                    <frame duration="1" hotspotX="0.533981" hotspotY="0.988571" original-source="C:\Users\ajbim\Desktop\Epic Battles\Gui Gud\Gui Gud.png" />
+                </animation>
+                <animation framecount="3" loop="0" name="RunRight" pingpong="0" repeatcount="1" repeatto="0" sid="9730573209417251" speed="5">
+                    <frame duration="1" hotspotX="0.473958" hotspotY="0.991304" original-source="C:\Users\ajbim\Desktop\Epic Battles\Gui Gud\Gui Gud (Run Right 1).png">
+                        <image-point name="Gun" x="0.588542" y="0.434783" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.543147" hotspotY="0.994269" original-source="C:\Users\ajbim\Desktop\Epic Battles\Gui Gud\Gui Gud (Run Right 2).png">
+                        <image-point name="Gun" x="0.604061" y="0.429799" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.546875" hotspotY="0.994286" original-source="C:\Users\ajbim\Desktop\Epic Battles\Gui Gud\Gui Gud (Gun Right).png">
+                        <image-point name="Gun" x="0.598958" y="0.434286" />
+                    </frame>
+                </animation>
+                <animation framecount="3" loop="0" name="RunLeft" pingpong="0" repeatcount="1" repeatto="0" sid="1249617997186081" speed="5">
+                    <frame duration="1" hotspotX="0.468085" hotspotY="0.991304" original-source="C:\Users\ajbim\Desktop\Epic Battles\Gui Gud\Gui Gud (Run Left 1).png">
+                        <image-point name="Gun" x="0.398936" y="0.44058" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.482233" hotspotY="0.997135" original-source="C:\Users\ajbim\Desktop\Epic Battles\Gui Gud\Gui Gud (Run Left 2).png">
+                        <image-point name="Gun" x="0.375635" y="0.426934" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.463542" hotspotY="0.994286" original-source="C:\Users\ajbim\Desktop\Epic Battles\Gui Gud\Gui Gud (Gun Left).png">
+                        <image-point name="Gun" x="0.40625" y="0.425714" />
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="CrouchLeft" pingpong="0" repeatcount="1" repeatto="0" sid="9534110031025259" speed="5">
+                    <frame duration="1" hotspotX="0.466667" hotspotY="0.996337" original-source="C:\Users\ajbim\Desktop\Epic Battles\Gui Gud\Gui Gud (Left Crouch).png" />
+                </animation>
+                <animation framecount="1" loop="0" name="CrouchRight" pingpong="0" repeatcount="1" repeatto="0" sid="8368314444180832" speed="5">
+                    <frame duration="1" hotspotX="0.45641" hotspotY="0.996337" original-source="C:\Users\ajbim\Desktop\Epic Battles\Gui Gud\Gui Gud (Right Crouch).png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Hurt" pingpong="0" repeatcount="1" repeatto="0" sid="6217388282126519" speed="5">
+                    <frame duration="1" hotspotX="0.534653" hotspotY="1" original-source="C:\Users\ajbim\Desktop\Epic Battles\Gui Gud\Gui Gud (Hurt).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="9457475782095221">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Platform" sid="8844367382136213">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9366089319164769">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9376708113404625" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.508772" original-source="C:\Users\ajbim\Desktop\Epic Battles\General\Platform.bmp" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Bullet" sid="8486662431276512">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="6720418850682533">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6600188812799856" speed="5">
+                    <frame duration="1" hotspotX="0.438298" hotspotY="0.472973" original-source="C:\Users\ajbim\Desktop\Epic Battles\Gui Gud\Bullet.bmp" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Background" sid="8422967658346688">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1335037793583346" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.936916" original-source="C:\Users\ajbim\Desktop\Epic Battles\General\Background.bmp" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Title.xml</layout>
+        <layout>Fenox.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Start.xml</event-sheet>
+        <event-sheet>Main.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="5" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

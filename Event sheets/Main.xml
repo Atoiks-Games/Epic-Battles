@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Main</name>
+    <events>
+        <event-block sid="1479526973468435">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="2047289761980371" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6054952131048481" type="Gui_Gud">
+                    <param id="0" name="Animation">&quot;RunLeft&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="3" name="Start" sid="2443399543331098" type="Gui_Gud">
+                    <param id="0" name="From">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3899486019729136">
+            <conditions>
+                <condition id="3" name="On key released" sid="4185617607838272" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="598421325822476" type="Gui_Gud">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8934633508684566">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="4377509544643763" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="3804618341246503" type="Gui_Gud">
+                    <param id="0" name="Animation">&quot;RunRight&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="3" name="Start" sid="4142882966459474" type="Gui_Gud">
+                    <param id="0" name="From">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3482869772408629">
+            <conditions>
+                <condition id="3" name="On key released" sid="3335017328922747" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="4541689993541474" type="Gui_Gud">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="692246925938459">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="9600490881991964" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="3931656859804137" type="Gui_Gud">
+                    <param id="0" name="Animation">&quot;CrouchLeft&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="3" name="Start" sid="9013700725634405" type="Gui_Gud">
+                    <param id="0" name="From">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1081001355756968">
+            <conditions>
+                <condition id="3" name="On key released" sid="1605937229129069" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="9876835399528751" type="Gui_Gud">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4122251303055168">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="2204447953946912" type="Keyboard">
+                    <param id="0" name="Key">90 (Z)</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="8405529350789115" type="Gui_Gud">
+                    <param id="0" name="Animation">&quot;RunRight&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="1451449076973142" type="Gui_Gud">
+                    <param id="0" name="Object">Bullet</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">1</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="1219956832460927" type="Bullet">
+                    <param id="0" name="Angle">0</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="5043396957815754" type="Bullet">
+                    <param id="0" name="Speed">180</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7796568534615134">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="7845430237219995" type="Keyboard">
+                    <param id="0" name="Key">90 (Z)</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="7830763923435119" type="Gui_Gud">
+                    <param id="0" name="Animation">&quot;RunLeft&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="4254815977900526" type="Gui_Gud">
+                    <param id="0" name="Object">Bullet</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">1</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="4757455505655546" type="Bullet">
+                    <param id="0" name="Angle">180</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="3380723262430192" type="Bullet">
+                    <param id="0" name="Speed">180</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
